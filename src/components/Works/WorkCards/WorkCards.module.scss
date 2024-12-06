@@ -1,0 +1,43 @@
+.work_cards {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        li {
+            position: relative;
+            img {
+                position: relative;
+            }
+
+            div {
+                position: absolute;
+                max-width: 368px;
+                width: 100%;
+                background: #fff;
+                top: 260px;
+                left: 24px;
+                padding: 20px 0px 20px 24px;
+                span {
+                    color: #7F27FF;
+                    font-size: 12px;
+                    line-height: 16px;
+                    text-transform: uppercase;
+                    margin-bottom: 8px;
+                }
+
+                h6 {
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    color: #1A1D27;
+                }
+
+                p {
+                    color: #1A1D27CC;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,107 @@
+.solution {
+  margin-bottom: 100px;
+  .container {
+    max-width: 1336px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 82px;
+    padding-right: 20px;
+  }
+  .solution_blog {
+    display: flex;
+    gap: 80px;
+    .solution_left {
+      max-width: 400px;
+      width: 100%;
+      div {
+        position: relative;
+        background: #070706;
+        height: 720px;
+        border-radius: 16px;
+        position: relative;
+
+        img {
+          position: absolute;
+          top: 88px;
+          left: -382px;
+        }
+      }
+    }
+
+    .solution_right {
+      .solution_right_top {
+        margin-bottom: 40px;
+        span {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 26px;
+          margin-bottom: 8px;
+          color: #7f27ff;
+          text-transform: uppercase;
+          margin-bottom: 8px;
+        }
+
+        h4 {
+          font-weight: 700;
+          font-size: 64px;
+          line-height: 72px;
+          color: #1a1d27;
+          margin-bottom: 16px;
+        }
+
+        p {
+          font-size: 16px;
+          line-height: 24px;
+          color: #1a1d27cc;
+        }
+      }
+
+      ul {
+        li {
+          &::after {
+            content: "";
+            display: inline-block;
+            border: 1px solid #ff891199;
+            width: 100%;
+            margin-bottom: 32px;
+          }
+          &:last-child::after {
+            border: none;
+          }
+          .topp {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+
+            h6 {
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 28px;
+              color: #1a1d27;
+              margin-bottom: 16px;
+            }
+          }
+
+          .card_show {
+            overflow: hidden;
+            max-height: 0;
+          }
+
+          .card_show.show {
+            height: auto;
+            max-height: 9999px;
+            transition: 0.5s ease;
+            color: #1a1d27cc;
+            font-size: 14px;
+            line-height: 23px;
+            font-style: normal;
+            font-weight: 500;
+            margin-bottom: 32px;
+          }
+        }
+      }
+    }
+  }
+}
