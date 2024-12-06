@@ -2,6 +2,7 @@ import React from 'react'
 import Aboutus from '../../components/Aboutus/Aboutus'
 import Hero from '../../components/Hero/Hero'
 import It from '../../components/It/It'
+import Member from '../../components/Member/Member'
 import Ready from '../../components/Ready/Ready'
 import Solution from '../../components/Solution/Solution'
 import Status from '../../components/Status/Status'
@@ -17,6 +18,7 @@ const Home = () => {
         <Solution />
         <Ready />
         <Works />
+        <Member />
     </div>
   )
 }
