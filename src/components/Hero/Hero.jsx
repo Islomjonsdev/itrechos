@@ -39,6 +39,7 @@ const Hero = () => {
               <p>Happy Clients</p>
             </div>
           </div>
+          
         </div>
       </div>
     </section>
