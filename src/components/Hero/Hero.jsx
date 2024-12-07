@@ -2,7 +2,7 @@ import style from "./Hero.module.scss";
 import { Link } from "react-router-dom";
 import Button from "../ui/Button/Button";
 import playIcon from "../../assets/svg/play.svg";
-import heroImage from "../../assets/images/image.png";
+// import heroImage from "../../assets/images/image.png";
 import imgCard1 from "../../assets/images/imgcard.png";
 
 const Hero = () => {
@@ -32,14 +32,14 @@ const Hero = () => {
           </div>
 
           <div className={style.hero_right}>
-            <img className={style.mainImg} src={heroImage} alt="" />
+            {/* <img className={style.mainImg} src={heroImage} alt="" /> */}
             <img className={style.card_img1} src={imgCard1} alt="" />
             <div>
               <span>2000+</span>
               <p>Happy Clients</p>
             </div>
           </div>
-          
+
         </div>
       </div>
     </section>
