@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./Hero.module.scss";
 import { Link } from "react-router-dom";
 import Button from "../ui/Button/Button";
@@ -33,9 +32,8 @@ const Hero = () => {
           </div>
 
           <div className={style.hero_right}>
-            {/* <img className={style.mainImg} src={heroImage} alt="" /> */}
+            <img className={style.mainImg} src={heroImage} alt="" />
             <img className={style.card_img1} src={imgCard1} alt="" />
-
             <div>
               <span>2000+</span>
               <p>Happy Clients</p>
