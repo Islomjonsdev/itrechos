@@ -1,10 +1,10 @@
 import React from "react";
+import style from "./Hero.module.scss";
 import { Link } from "react-router-dom";
 import Button from "../ui/Button/Button";
 import playIcon from "../../assets/svg/play.svg";
-import style from "./Hero.module.scss";
 import heroImage from "../../assets/images/image.png";
-import imgCard1 from "../../assets/images/img-card.png";
+import imgCard1 from "../../assets/images/imgcard.png";
 
 const Hero = () => {
   return (

@@ -1,0 +1,23 @@
+.member {
+    .container {
+        max-width: 1336px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 82px;
+        padding-right: 20px;
+    }
+
+    .member_top {
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            a {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
+        }
+    }
+}
