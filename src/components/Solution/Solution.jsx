@@ -29,7 +29,7 @@ const Solution = () => {
               <span>Why choose us</span>
               <h4>Proven Expertise in Complex IT Solutions</h4>
               <p>
-                Assertively streamline interactive interfaces after value-added
+                Assertively streamline interactive Interfaces after value-added
                 infrastructures. Authoritatively fabricate fully tested
                 methodologies before. Holistic deliver end-to-end architectures
                 rather than economically sound benefits. Progressively simplify
